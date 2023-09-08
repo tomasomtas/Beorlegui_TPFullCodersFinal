@@ -82,6 +82,31 @@ Algoritmo BalanceCaloricoDiario
 	caloriasAlmuerzo <- (cantidadPanAlmuerzo*caloriasPorPorcionPan)+(cantidadGaseosaAlmuerzo*caloriasPorPorcionGaseosa)+(cantidadEnsaladaAlmuerzo*caloriasPorPorcionEnsalada)+(cantidadProteinaAlmuerzo*caloriasPorPorcionProteina)+(cantidadCarbohidratosAlmuerzo*caloriasPorPorcionCarbohidratos)+(cantidadSandwichAlmuerzo*caloriasPorPorcionSandwich)+(cantidadPizzaAlmuerzo*caloriasPorPorcionPizza)
 	Escribir 'Las calorías totales consumidas en el almuerzo son: ', caloriasAlmuerzo, ' kcal'
 	
+	Definir cantidadPanMerienda, cantidadLecheMerienda, cantidadAzucarMerienda, cantidadChocolateMerienda, cantidadProteinaMerienda, cantidadFrutaMerienda Como Entero
+	Definir caloriasMerienda Como Real
+	Escribir 'Ingresa las porciones ingeridas durante la merienda'
+	Escribir 'Las porciones equivalen igualmente que en el desayuno'
+	caloriasPorPorcionPan <- 600.0
+	caloriasPorPorcionLeche <- 125.0
+	caloriasPorPorcionAzucar <- 40.0
+	caloriasPorPorcionChocolate <- 300.0
+	caloriasPorPorcionProteina <- 200.0
+	caloriasPorPorcionFruta <- 300.0
+	Escribir 'Ingrese la cantidad de porciones de pan consumidas durante la merienda: '
+	Leer cantidadPanMerienda
+	Escribir 'Ingrese la cantidad de porciones de leche consumidas durante la merienda: '
+	Leer cantidadLecheMerienda
+	Escribir 'Ingrese la cantidad de cucharadas de azúcar consumidas durante la merienda: '
+	Leer cantidadAzucarMerienda
+	Escribir 'Ingrese la cantidad de barras de chocolate consumidas durante la merienda: '
+	Leer cantidadChocolateMerienda
+	Escribir 'Ingrese la cantidad de porciones de proteína consumidas durante la merienda: '
+	Leer cantidadProteinaMerienda
+	Escribir 'Ingrese la cantidad de porciones de fruta consumidas durante la merienda: '
+	Leer cantidadFrutaMerienda
+	caloriasMerienda <- (cantidadPanMerienda*caloriasPorPorcionPan)+(cantidadLecheMerienda*caloriasPorPorcionLeche)+(cantidadAzucarMerienda*caloriasPorPorcionAzucar)+(cantidadChocolateMerienda*caloriasPorPorcionChocolate)+(cantidadProteinaMerienda*caloriasPorPorcionProteina)+(cantidadFrutaMerienda*caloriasPorPorcionFruta)
+	Escribir 'Las calorías totales consumidas en la Merienda son: ', caloriasMerienda, ' kcal' 
+	
 	
 	
 	
