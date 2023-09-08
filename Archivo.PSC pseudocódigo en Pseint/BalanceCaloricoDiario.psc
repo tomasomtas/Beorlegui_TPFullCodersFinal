@@ -56,6 +56,34 @@ Algoritmo BalanceCaloricoDiario
 	caloriasDesayuno <- (cantidadPanDesayuno*caloriasPorPorcionPan)+(cantidadLecheDesayuno*caloriasPorPorcionLeche)+(cantidadAzucarDesayuno*caloriasPorPorcionAzucar)+(cantidadChocolateDesayuno*caloriasPorPorcionChocolate)+(cantidadProteinaDesayuno*caloriasPorPorcionProteina)+(cantidadFrutaDesayuno*caloriasPorPorcionFruta)
 	Escribir 'Las calorías totales consumidas en el desayuno son: ', caloriasDesayuno, ' kcal'
 	
+	Definir cantidadPanAlmuerzo, cantidadGaseosaAlmuerzo, cantidadEnsaladaAlmuerzo, cantidadProteinaAlmuerzo, cantidadCarbohidratosAlmuerzo, cantidadSandwichAlmuerzo, cantidadPizzaAlmuerzo Como Entero
+	Definir caloriasAlmuerzo Como Real
+	caloriasPorPorcionPan <- 600.0
+	caloriasPorPorcionGaseosa <- 250.0
+	caloriasPorPorcionEnsalada <- 250.0
+	caloriasPorPorcionProteina <- 200.0
+	caloriasPorPorcionCarbohidratos <- 370.0
+	caloriasPorPorcionSandwich <- 450.0
+	caloriasPorPorcionPizza <- 270.0
+	Escribir 'Ingrese la cantidad de porciones de pan consumidas en el almuerzo: '
+	Leer cantidadPanAlmuerzo
+	Escribir 'Ingrese la cantidad de gaseosa consumida en el almuerzo: '
+	Leer cantidadGaseosaAlmuerzo
+	Escribir 'Ingrese la cantidad de porciones de ensalada consumidas en el almuerzo: '
+	Leer cantidadEnsaladaAlmuerzo
+	Escribir 'Ingrese la cantidad de porciones de proteína magra consumidas en el almuerzo: '
+	Leer cantidadProteinaAlmuerzo
+	Escribir 'Ingrese la cantidad de porciones de carbohidratos consumidas en el almuerzo: '
+	Leer cantidadCarbohidratosAlmuerzo
+	Escribir 'Ingrese la cantidad de porciones de sandwich o pizzas consumidas en el almuerzo: '
+	Leer cantidadSandwichAlmuerzo
+	Escribir 'Ingrese la cantidad de porciones de pizza consumidas en el almuerzo: '
+	Leer cantidadPizzaAlmuerzo
+	caloriasAlmuerzo <- (cantidadPanAlmuerzo*caloriasPorPorcionPan)+(cantidadGaseosaAlmuerzo*caloriasPorPorcionGaseosa)+(cantidadEnsaladaAlmuerzo*caloriasPorPorcionEnsalada)+(cantidadProteinaAlmuerzo*caloriasPorPorcionProteina)+(cantidadCarbohidratosAlmuerzo*caloriasPorPorcionCarbohidratos)+(cantidadSandwichAlmuerzo*caloriasPorPorcionSandwich)+(cantidadPizzaAlmuerzo*caloriasPorPorcionPizza)
+	Escribir 'Las calorías totales consumidas en el almuerzo son: ', caloriasAlmuerzo, ' kcal'
+	
+	
+	
 	
 	
 FinAlgoritmo
