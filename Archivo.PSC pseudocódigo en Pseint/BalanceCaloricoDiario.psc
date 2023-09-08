@@ -1,6 +1,4 @@
 Algoritmo BalanceCaloricoDiario
-	
-	
 	Definir sexo Como Cadena
 	Definir horasCaminadas, horasEjercicio Como Real
 	Definir gastoMetabolicoBasal Como Real
@@ -26,7 +24,6 @@ Algoritmo BalanceCaloricoDiario
 	gastoEjercicio <- horasEjercicio*gastoPorHoraEjercicio
 	gastoTotal <- gastoMetabolicoBasal+gastoCaminatas+gastoEjercicio
 	Escribir 'Su gasto calórico total es de: ', gastoTotal, ' kcal'
-	
 	Escribir 'Ahora, ingresarás datos de ingesta en desayuno'
 	Definir cantidadPanDesayuno, cantidadLecheDesayuno, cantidadAzucarDesayuno, cantidadChocolateDesayuno, cantidadProteinaDesayuno, cantidadFrutaDesayuno Como Entero
 	Definir caloriasDesayuno Como Real
@@ -55,7 +52,6 @@ Algoritmo BalanceCaloricoDiario
 	Leer cantidadFrutaDesayuno
 	caloriasDesayuno <- (cantidadPanDesayuno*caloriasPorPorcionPan)+(cantidadLecheDesayuno*caloriasPorPorcionLeche)+(cantidadAzucarDesayuno*caloriasPorPorcionAzucar)+(cantidadChocolateDesayuno*caloriasPorPorcionChocolate)+(cantidadProteinaDesayuno*caloriasPorPorcionProteina)+(cantidadFrutaDesayuno*caloriasPorPorcionFruta)
 	Escribir 'Las calorías totales consumidas en el desayuno son: ', caloriasDesayuno, ' kcal'
-	
 	Definir cantidadPanAlmuerzo, cantidadGaseosaAlmuerzo, cantidadEnsaladaAlmuerzo, cantidadProteinaAlmuerzo, cantidadCarbohidratosAlmuerzo, cantidadSandwichAlmuerzo, cantidadPizzaAlmuerzo Como Entero
 	Definir caloriasAlmuerzo Como Real
 	caloriasPorPorcionPan <- 600.0
@@ -81,7 +77,6 @@ Algoritmo BalanceCaloricoDiario
 	Leer cantidadPizzaAlmuerzo
 	caloriasAlmuerzo <- (cantidadPanAlmuerzo*caloriasPorPorcionPan)+(cantidadGaseosaAlmuerzo*caloriasPorPorcionGaseosa)+(cantidadEnsaladaAlmuerzo*caloriasPorPorcionEnsalada)+(cantidadProteinaAlmuerzo*caloriasPorPorcionProteina)+(cantidadCarbohidratosAlmuerzo*caloriasPorPorcionCarbohidratos)+(cantidadSandwichAlmuerzo*caloriasPorPorcionSandwich)+(cantidadPizzaAlmuerzo*caloriasPorPorcionPizza)
 	Escribir 'Las calorías totales consumidas en el almuerzo son: ', caloriasAlmuerzo, ' kcal'
-	
 	Definir cantidadPanMerienda, cantidadLecheMerienda, cantidadAzucarMerienda, cantidadChocolateMerienda, cantidadProteinaMerienda, cantidadFrutaMerienda Como Entero
 	Definir caloriasMerienda Como Real
 	Escribir 'Ingresa las porciones ingeridas durante la merienda'
@@ -105,8 +100,7 @@ Algoritmo BalanceCaloricoDiario
 	Escribir 'Ingrese la cantidad de porciones de fruta consumidas durante la merienda: '
 	Leer cantidadFrutaMerienda
 	caloriasMerienda <- (cantidadPanMerienda*caloriasPorPorcionPan)+(cantidadLecheMerienda*caloriasPorPorcionLeche)+(cantidadAzucarMerienda*caloriasPorPorcionAzucar)+(cantidadChocolateMerienda*caloriasPorPorcionChocolate)+(cantidadProteinaMerienda*caloriasPorPorcionProteina)+(cantidadFrutaMerienda*caloriasPorPorcionFruta)
-	Escribir 'Las calorías totales consumidas en la Merienda son: ', caloriasMerienda, ' kcal' 
-	
+	Escribir 'Las calorías totales consumidas en la Merienda son: ', caloriasMerienda, ' kcal'
 	Definir cantidadPanCena, cantidadGaseosaCena, cantidadEnsaladaCena, cantidadProteinaCena, cantidadCarbohidratosCena, cantidadSandwichCena, cantidadPizzaCena Como Entero
 	Definir caloriasCena Como Real
 	caloriasPorPorcionPan <- 600.0
@@ -144,9 +138,3 @@ Algoritmo BalanceCaloricoDiario
 		Escribir 'Tu balance calórico diario es positivo, significa que aumentarás de peso si no lo corriges. Procura disminuir la ingesta de carbohidratos, aumentar la ingesta de fibra (ensalada) y proteína magra, y aumenta el tiempo de actividad física'
 	FinSi
 FinAlgoritmo
-	
-	
-	
-	
-	
-
